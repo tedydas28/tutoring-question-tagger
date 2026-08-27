@@ -1,0 +1,187 @@
+[
+  {
+    "id": "q001",
+    "text": "Triangle ABC is similar to triangle DEF. If AB = 6, BC = 9, and DE = 4, what is the length of EF?",
+    "choices": ["5", "6", "6.5", "9"],
+    "answer": "6",
+    "difficulty": "medium",
+    "gold_skills": ["similar_triangles"],
+    "gold_formats": ["straightforward", "diagram_based"]
+  },
+  {
+    "id": "q002",
+    "text": "A flagpole casts a shadow 20 feet long. At the same time, a 5-foot-tall person standing nearby casts a shadow 4 feet long. What is the height, in feet, of the flagpole?",
+    "choices": ["16", "20", "25", "30"],
+    "answer": "25",
+    "difficulty": "medium",
+    "gold_skills": ["similar_triangles"],
+    "gold_formats": ["word_problem", "multi_step"]
+  },
+  {
+    "id": "q003",
+    "text": "In right triangle PQR, angle Q is 90 degrees, PQ = 6, and QR = 8. What is the length of the hypotenuse PR?",
+    "choices": ["8", "10", "12", "14"],
+    "answer": "10",
+    "difficulty": "easy",
+    "gold_skills": ["special_right_triangles"],
+    "gold_formats": ["straightforward", "diagram_based"]
+  },
+  {
+    "id": "q004",
+    "text": "A surveyor stands 50 feet from the base of a building and measures the angle of elevation to the top of the building to be 40 degrees. Which of the following expressions gives the height of the building, in feet?",
+    "choices": ["50 tan(40°)", "50 sin(40°)", "50 / tan(40°)", "50 cos(40°)"],
+    "answer": "50 tan(40°)",
+    "difficulty": "hard",
+    "gold_skills": ["angle_elevation_depression", "right_triangle_trig"],
+    "gold_formats": ["word_problem", "multi_step"]
+  },
+  {
+    "id": "q005",
+    "text": "Solve for x: 3x + 7 = 22",
+    "choices": ["3", "5", "7", "9"],
+    "answer": "5",
+    "difficulty": "easy",
+    "gold_skills": ["linear_eq_one_var"],
+    "gold_formats": ["straightforward"]
+  },
+  {
+    "id": "q006",
+    "text": "A store sells notebooks for $2 each and pens for $1 each. If Maria spends exactly $17 buying a combination of 5 notebooks and pens total, how many notebooks did she buy?",
+    "choices": ["3", "4", "5", "6"],
+    "answer": "4",
+    "difficulty": "medium",
+    "gold_skills": ["linear_eq_two_var"],
+    "gold_formats": ["word_problem", "multi_step"]
+  },
+  {
+    "id": "q007",
+    "text": "The graph shown below represents a linear function f. What is the slope of the line?",
+    "choices": ["-2", "-1/2", "1/2", "2"],
+    "answer": "-1/2",
+    "difficulty": "easy",
+    "gold_skills": ["linear_functions"],
+    "gold_formats": ["graph_based", "straightforward"]
+  },
+  {
+    "id": "q008",
+    "text": "Which of the following quadratic equations has no real solutions?",
+    "choices": ["x^2 - 4 = 0", "x^2 + 4 = 0", "x^2 - 5x + 6 = 0", "x^2 = 9"],
+    "answer": "x^2 + 4 = 0",
+    "difficulty": "medium",
+    "gold_skills": ["quadratic_formula"],
+    "gold_formats": ["conceptual"]
+  },
+  {
+    "id": "q009",
+    "text": "A population of bacteria doubles every 3 hours. If the initial population is 200, which expression gives the population after t hours?",
+    "choices": ["200(2)^(t/3)", "200(3)^(t/2)", "200 + 2t", "200(2)^t"],
+    "answer": "200(2)^(t/3)",
+    "difficulty": "hard",
+    "gold_skills": ["exponential"],
+    "gold_formats": ["word_problem", "multi_step"]
+  },
+  {
+    "id": "q010",
+    "text": "The table below shows the number of hours studied and the corresponding test score for six students. Based on the line of best fit, which of the following best approximates the score for a student who studies 5 hours?",
+    "choices": ["70", "75", "80", "85"],
+    "answer": "80",
+    "difficulty": "medium",
+    "gold_skills": ["two_var_data"],
+    "gold_formats": ["table_based", "multi_step"]
+  },
+  {
+    "id": "q011",
+    "text": "What is the area of a circle with radius 6?",
+    "choices": ["6π", "12π", "36π", "72π"],
+    "answer": "36π",
+    "difficulty": "easy",
+    "gold_skills": ["circles", "area_volume"],
+    "gold_formats": ["straightforward"]
+  },
+  {
+    "id": "q012",
+    "text": "A rectangular prism has a length of 4, width of 3, and height of 5. What is its volume?",
+    "choices": ["12", "20", "60", "120"],
+    "answer": "60",
+    "difficulty": "easy",
+    "gold_skills": ["area_volume"],
+    "gold_formats": ["straightforward"]
+  },
+  {
+    "id": "q013",
+    "text": "Two triangles have the same shape but different sizes, with corresponding sides in the ratio 3:5. If the shorter triangle has a perimeter of 18, what is the perimeter of the longer triangle?",
+    "choices": ["24", "27", "30", "36"],
+    "answer": "30",
+    "difficulty": "medium",
+    "gold_skills": ["similar_triangles"],
+    "gold_formats": ["word_problem", "multi_step"]
+  },
+  {
+    "id": "q014",
+    "text": "In triangle XYZ, angle X = 45 degrees and angle Y = 45 degrees. If the leg length is 8, what is the length of the hypotenuse?",
+    "choices": ["8", "8√2", "16", "16√2"],
+    "answer": "8√2",
+    "difficulty": "medium",
+    "gold_skills": ["special_right_triangles"],
+    "gold_formats": ["diagram_based", "straightforward"]
+  },
+  {
+    "id": "q015",
+    "text": "If sin(θ) = 3/5 and θ is an acute angle, what is cos(θ)?",
+    "choices": ["3/5", "4/5", "5/4", "5/3"],
+    "answer": "4/5",
+    "difficulty": "medium",
+    "gold_skills": ["right_triangle_trig"],
+    "gold_formats": ["straightforward"]
+  },
+  {
+    "id": "q016",
+    "text": "A car rental company charges a flat fee of $30 plus $0.25 per mile driven. Which of the following inequalities represents the number of miles m that keeps the total cost under $80?",
+    "choices": ["30 + 0.25m < 80", "30 + 0.25m > 80", "0.25 + 30m < 80", "30m + 0.25 < 80"],
+    "answer": "30 + 0.25m < 80",
+    "difficulty": "medium",
+    "gold_skills": ["linear_inequalities"],
+    "gold_formats": ["word_problem", "multi_step"]
+  },
+  {
+    "id": "q017",
+    "text": "What percent of 80 is 20?",
+    "choices": ["20%", "25%", "40%", "50%"],
+    "answer": "25%",
+    "difficulty": "easy",
+    "gold_skills": ["percentages"],
+    "gold_formats": ["straightforward"]
+  },
+  {
+    "id": "q018",
+    "text": "A jar contains 4 red marbles and 6 blue marbles. If one marble is drawn at random, what is the probability it is red?",
+    "choices": ["2/5", "3/5", "2/3", "4/10"],
+    "answer": "2/5",
+    "difficulty": "easy",
+    "gold_skills": ["probability"],
+    "gold_formats": ["word_problem", "straightforward"]
+  },
+  {
+    "id": "q019",
+    "text": "Which of the following best describes the relationship between the graphs of f(x) and f(x) + 3?",
+    "choices": [
+      "The graph of f(x) + 3 is shifted up 3 units",
+      "The graph of f(x) + 3 is shifted down 3 units",
+      "The graph of f(x) + 3 is shifted right 3 units",
+      "The graph of f(x) + 3 is stretched by a factor of 3"
+    ],
+    "answer": "The graph of f(x) + 3 is shifted up 3 units",
+    "difficulty": "easy",
+    "gold_skills": ["function_notation"],
+    "gold_formats": ["conceptual"]
+  },
+  {
+    "id": "q020",
+    "text": "A ladder leans against a wall, forming a 60 degree angle with the ground. If the base of the ladder is 5 feet from the wall, how long is the ladder, to the nearest foot?",
+    "choices": ["5", "8", "9", "10"],
+    "answer": "10",
+    "difficulty": "hard",
+    "gold_skills": ["right_triangle_trig", "special_right_triangles"],
+    "gold_formats": ["word_problem", "multi_step", "diagram_based"]
+  }
+]

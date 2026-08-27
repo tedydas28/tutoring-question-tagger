@@ -1,0 +1,166 @@
+[
+  {
+    "id": "3f5a3602",
+    "source": "sat_algebra_all.pdf (page 2)",
+    "text": "What system of linear equations is represented by the lines shown? [graph: two lines on xy-plane, one through (0,8) and (8,0) roughly, another through (0,4) and (8,0)]",
+    "choices": [
+      "A. 8x + 4y = 32; -10x - 4y = -64",
+      "B. 8x - 4y = 32; -10x + 4y = -64",
+      "C. 4x - 10y = 32; -8x + 10y = -64",
+      "D. 4x + 10y = 32; -8x - 10y = -64"
+    ],
+    "answer": "A",
+    "difficulty": "hard",
+    "cb_domain": "Algebra",
+    "cb_skill": "Systems of two linear equations in two variables",
+    "gold_skills": ["systems_linear_eq"],
+    "gold_formats": ["graph_based", "straightforward"]
+  },
+  {
+    "id": "3d1070c9",
+    "source": "sat_algebra_all.pdf (page 3)",
+    "text": "The function f is defined by f(x) = 25x + 30. What is the value of f(x) when x = 2?",
+    "choices": ["A. 50", "B. 57", "C. 80", "D. 110"],
+    "answer": "C",
+    "difficulty": "easy",
+    "cb_domain": "Algebra",
+    "cb_skill": "Linear functions",
+    "gold_skills": ["linear_functions"],
+    "gold_formats": ["straightforward"]
+  },
+  {
+    "id": "002dba45",
+    "source": "sat_algebra_all.pdf (page 4)",
+    "text": "Line k is defined by y = -(17/3)x + 5. Line j is perpendicular to line k in the xy-plane. What is the slope of line j?",
+    "choices": [],
+    "answer": "3/17",
+    "difficulty": "medium",
+    "cb_domain": "Algebra",
+    "cb_skill": "Linear equations in two variables",
+    "gold_skills": ["linear_eq_two_var"],
+    "gold_formats": ["straightforward"]
+  },
+  {
+    "id": "f224df07",
+    "source": "sat_algebra_all.pdf (page 6)",
+    "text": "A cargo helicopter delivers only 100-pound packages and 120-pound packages. For each delivery trip, the helicopter must carry at least 10 packages, and the total weight of the packages can be at most 1,100 pounds. What is the maximum number of 120-pound packages that the helicopter can carry per trip?",
+    "choices": ["A. 2", "B. 4", "C. 5", "D. 6"],
+    "answer": "B",
+    "difficulty": "medium",
+    "cb_domain": "Algebra",
+    "cb_skill": "Linear inequalities in one or two variables",
+    "gold_skills": ["linear_inequalities"],
+    "gold_formats": ["word_problem", "multi_step"]
+  },
+  {
+    "id": "beca03de",
+    "source": "sat_advmath_all.pdf (page 1)",
+    "text": "A rectangle has a length that is 15 times its width. The function y = (15w)(w) represents this situation, where y is the area, in square feet, of the rectangle and y > 0. Which of the following is the best interpretation of 15w in this context?",
+    "choices": [
+      "A. The length of the rectangle, in feet",
+      "B. The area of the rectangle, in square feet",
+      "C. The difference between the length and the width of the rectangle, in feet",
+      "D. The width of the rectangle, in feet"
+    ],
+    "answer": "A",
+    "difficulty": "medium",
+    "cb_domain": "Advanced Math",
+    "cb_skill": "Nonlinear functions",
+    "gold_skills": ["nonlinear_model_interpretation"],
+    "gold_formats": ["word_problem", "conceptual"]
+  },
+  {
+    "id": "4e18fc5d",
+    "source": "sat_advmath_all.pdf (page 3)",
+    "text": "v = -w/(150x). The given equation relates the distinct positive numbers v, w, and x. Which equation correctly expresses w in terms of v and x?",
+    "choices": [
+      "A. w = -150vx",
+      "B. w = -150v/x",
+      "C. w = -x/(150v)",
+      "D. w = v + 150x"
+    ],
+    "answer": "A",
+    "difficulty": "medium",
+    "cb_domain": "Advanced Math",
+    "cb_skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "gold_skills": ["equation_rearrangement"],
+    "gold_formats": ["straightforward"]
+  },
+  {
+    "id": "a5663025",
+    "source": "sat_advmath_all.pdf (page 2, seen in earlier text-extraction sample)",
+    "text": "A system of equations consists of a quadratic equation and a linear equation. The equations in this system are graphed in the xy-plane above. How many solutions does this system have?",
+    "choices": ["A. 0", "B. 1", "C. 2", "D. 3"],
+    "answer": null,
+    "difficulty": "medium",
+    "cb_domain": "Advanced Math",
+    "cb_skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "gold_skills": ["nonlinear_system_solutions"],
+    "gold_formats": ["graph_based", "conceptual"]
+  },
+  {
+    "id": "f5c3e3b8",
+    "source": "sat_advmath_all.pdf (page 4)",
+    "text": "Which expression is equivalent to (m^4 q^4 z^-1)(m q^5 z^3), where m, q, and z are positive?",
+    "choices": ["A. m^4 q^20 z^-3", "B. m^5 q^9 z^2", "C. m^6 q^8 z^-1", "D. m^20 q^12 z^-2"],
+    "answer": "B",
+    "difficulty": "easy",
+    "cb_domain": "Advanced Math",
+    "cb_skill": "Equivalent expressions",
+    "gold_skills": ["equivalent_expressions"],
+    "gold_formats": ["straightforward"]
+  },
+  {
+    "id": "6d99b141",
+    "source": "sat_geotrig_all.pdf (page 1)",
+    "text": "In the figure, triangle DEB and triangle DCA share point E on segment DA, with C on segment DB. AC = CD. The measure of angle EBC is 45 degrees, and the measure of angle ACD is 104 degrees. What is the value of x, where x is the angle at point E (angle AEB)? Note: figure not drawn to scale.",
+    "choices": [],
+    "answer": null,
+    "difficulty": "hard",
+    "cb_domain": "Geometry and Trigonometry",
+    "cb_skill": "Lines, angles, and triangles",
+    "gold_skills": ["lines_angles"],
+    "gold_formats": ["diagram_based", "multi_step"]
+  },
+  {
+    "id": "2c3aefc9",
+    "source": "sat_geotrig_all.pdf (page 2)",
+    "text": "In rectangle PQRS, the length of line segment QS is the square root of 2,344 and the length of side PS is 8 more than the length of side RS. What is the length of side QR? Note: figure not drawn to scale.",
+    "choices": [],
+    "answer": null,
+    "difficulty": "hard",
+    "cb_domain": "Geometry and Trigonometry",
+    "cb_skill": "Right triangles and trigonometry",
+    "gold_skills": ["special_right_triangles"],
+    "gold_formats": ["diagram_based", "multi_step"]
+  },
+  {
+    "id": "85939da5",
+    "source": "sat_ps_da_all.pdf (page 1)",
+    "text": "In a study of cell phone use, 799 randomly selected US teens were asked how often they talked on a cell phone and about their texting behavior. The data are summarized in a table (light/medium/heavy texting behavior crossed with talks-on-phone-daily yes/no, with totals). Based on the data from the study, an estimate of the percent of US teens who are heavy texters is 30% and the associated margin of error is 3%. Which of the following is a correct statement based on the given margin of error?",
+    "choices": [
+      "A. Approximately 3% of the teens in the study who are classified as heavy texters are not really heavy texters.",
+      "B. It is not possible that the percent of all US teens who are heavy texters is less than 27%.",
+      "C. The percent of all US teens who are heavy texters is 33%.",
+      "D. It is doubtful that the percent of all US teens who are heavy texters is 35%."
+    ],
+    "answer": "D",
+    "difficulty": "hard",
+    "cb_domain": "Problem-Solving and Data Analysis",
+    "cb_skill": "Inference from sample statistics and margin of error",
+    "gold_skills": ["sampling_inference"],
+    "gold_formats": ["table_based", "word_problem", "conceptual"]
+  },
+  {
+    "id": "3c8fdc40",
+    "source": "sat_ps_da_all.pdf (page 2)",
+    "text": "A printer produces posters at a constant rate of 42 posters per minute. At what rate, in posters per hour, does the printer produce the posters?",
+    "choices": [],
+    "answer": null,
+    "difficulty": "easy",
+    "cb_domain": "Problem-Solving and Data Analysis",
+    "cb_skill": "Ratios, rates, proportional relationships, and units",
+    "gold_skills": ["ratios_rates"],
+    "gold_formats": ["word_problem", "straightforward"]
+  }
+]

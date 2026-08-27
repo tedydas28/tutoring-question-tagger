@@ -1,0 +1,197 @@
+domains:
+  - id: algebra
+    name: Algebra
+    # cb_skill fields below are exact official College Board skill names,
+    # confirmed against the real question bank export - see
+    # data/raw/parsed_questions.json. Corrected on 2026-08-27 after real
+    # data showed "Linear equations in two variables" and "Systems of two
+    # linear equations in two variables" are TWO separate CB skills, not one.
+    skills:
+      - id: linear_eq_one_var
+        name: Linear equations in one variable
+        cb_skill: "Linear equations in one variable"
+        keywords: ["solve for x", "linear equation", "one variable"]
+      - id: linear_eq_two_var
+        name: Linear equations in two variables (single equation, e.g. slope/line relationships)
+        cb_skill: "Linear equations in two variables"
+        keywords: ["perpendicular", "parallel", "line k", "line j", "slope of line"]
+      - id: systems_linear_eq
+        name: Systems of two linear equations in two variables
+        cb_skill: "Systems of two linear equations in two variables"
+        keywords: ["system of equations", "system of linear equations", "elimination", "substitution", "lines shown"]
+      - id: linear_inequalities
+        name: Linear inequalities in one or two variables
+        cb_skill: "Linear inequalities in one or two variables"
+        keywords: ["inequality", "greater than", "less than", "at least", "at most", "maximum number", "minimum number"]
+      - id: linear_functions
+        name: Linear functions (slope, intercepts, interpretation)
+        cb_skill: "Linear functions"
+        keywords: ["slope", "y-intercept", "x-intercept", "linear function"]
+
+  - id: advanced_math
+    name: Advanced Math
+    skills:
+      - id: equivalent_expressions
+        name: Equivalent expressions
+        cb_skill: "Equivalent expressions"
+        # Real example seen: simplifying (m^4 q^4 z^-1)(m q^5 z^3) via exponent
+        # rules. Subdivide further once volume justifies it (exponent rules
+        # vs. factoring vs. radical simplification are likely distinct
+        # enough to split).
+        keywords: ["equivalent to", "which expression is equivalent", "simplify"]
+      - id: quadratic_factoring
+        name: Quadratic equations - factoring
+        cb_skill: "Nonlinear equations in one variable and systems of equations in two variables"
+        keywords: ["factor", "zero product"]
+      - id: quadratic_formula
+        name: Quadratic equations - formula / completing the square
+        cb_skill: "Nonlinear equations in one variable and systems of equations in two variables"
+        keywords: ["quadratic formula", "completing the square", "discriminant", "no real solutions"]
+      - id: equation_rearrangement
+        name: Rearranging a nonlinear equation to isolate a variable
+        cb_skill: "Nonlinear equations in one variable and systems of equations in two variables"
+        # Real example seen: v = -w/(150x), solve for w in terms of v and x.
+        # This is NOT factoring or the quadratic formula - it's algebraic
+        # rearrangement - and was clearly distinct enough in the sample to
+        # earn its own tag rather than folding into quadratic_formula.
+        keywords: ["in terms of", "which equation correctly expresses"]
+      - id: nonlinear_system_solutions
+        name: Number/nature of solutions to a nonlinear system
+        cb_skill: "Nonlinear equations in one variable and systems of equations in two variables"
+        keywords: ["how many solutions", "number of solutions"]
+      - id: quadratic_graph
+        name: Quadratic/nonlinear graph interpretation
+        cb_skill: "Nonlinear functions"
+        keywords: ["vertex", "axis of symmetry", "parabola", "roots of the graph"]
+      - id: nonlinear_model_interpretation
+        name: Interpreting a term/variable in a nonlinear real-world model
+        cb_skill: "Nonlinear functions"
+        # Real example seen: y = (15w)(w) models rectangle area; "what does
+        # 15w represent in this context?" - distinct from graph-reading and
+        # from pure equation-solving.
+        keywords: ["best interpretation of", "represents this situation", "in this context"]
+      - id: exponential
+        name: Exponential growth/decay
+        cb_skill: "Nonlinear functions"
+        keywords: ["exponential", "growth rate", "decay", "compounded"]
+      - id: rational_expr
+        name: Rational expressions and equations
+        cb_skill: "Nonlinear equations in one variable and systems of equations in two variables"
+        keywords: ["rational expression", "rational equation", "denominator"]
+      - id: function_notation
+        name: Function notation and composition
+        cb_skill: "Nonlinear functions"
+        keywords: ["f(x)", "g(x)", "composition of functions"]
+
+  # Corrected 2026-08-27 against real data from sat_ps_da_all.pdf (421
+  # questions). Official CB skill names for this domain confirmed as
+  # exactly 7 categories - two of them (inference/margin of error,
+  # evaluating statistical claims) were entirely missing from the original
+  # draft.
+  - id: data_analysis
+    name: Problem-Solving and Data Analysis
+    skills:
+      - id: ratios_rates
+        name: Ratios, rates, proportional relationships, and units
+        cb_skill: "Ratios, rates, proportional relationships, and units"
+        keywords: ["ratio", "rate", "proportion", "per hour", "per unit", "unit conversion"]
+      - id: percentages
+        name: Percentages
+        cb_skill: "Percentages"
+        keywords: ["percent", "%", "percentage"]
+      - id: two_var_data
+        name: Two-variable data - models and scatterplots
+        cb_skill: "Two-variable data: Models and scatterplots"
+        keywords: ["scatterplot", "line of best fit", "trend line"]
+      - id: center_spread
+        name: One-variable data - distributions, center and spread
+        cb_skill: "One-variable data: Distributions and measures of center and spread"
+        keywords: ["mean", "median", "standard deviation", "spread", "distribution"]
+      - id: probability
+        name: Probability and conditional probability
+        cb_skill: "Probability and conditional probability"
+        keywords: ["probability", "likely", "chance", "odds", "conditional probability", "given that"]
+      - id: sampling_inference
+        name: Inference from sample statistics and margin of error
+        cb_skill: "Inference from sample statistics and margin of error"
+        # Entirely missing from the original draft taxonomy - only found
+        # once real data was parsed.
+        keywords: ["margin of error", "confidence interval", "sample statistic", "population parameter", "point estimate"]
+      - id: evaluating_statistical_claims
+        name: Evaluating statistical claims - observational studies and experiments
+        cb_skill: "Evaluating statistical claims: Observational studies and experiments"
+        # Also entirely missing from the original draft.
+        keywords: ["random sample", "random assignment", "observational study", "experiment", "causal", "generalize"]
+
+  # Corrected 2026-08-27 against real data from sat_geotrig_all.pdf (348
+  # questions). Official CB skill names for this domain are exactly 4
+  # categories - the original draft had split "Lines, angles, and
+  # triangles" into several separate top-level skills (triangle_congruence,
+  # similar_triangles) that are actually ONE official skill, and had put
+  # special_right_triangles under a skill of its own rather than under
+  # "Right triangles and trigonometry" where it officially belongs.
+  - id: geometry_trig
+    name: Geometry and Trigonometry
+    skills:
+      - id: area_volume
+        name: Area and volume
+        cb_skill: "Area and volume"
+        keywords: ["area", "volume", "surface area"]
+      - id: triangle_congruence
+        name: Triangle congruence
+        cb_skill: "Lines, angles, and triangles"
+        keywords: ["congruent triangles", "congruence", "SSS", "SAS", "ASA"]
+      - id: similar_triangles
+        name: Similar triangles
+        cb_skill: "Lines, angles, and triangles"
+        keywords: ["similar triangles", "similar to triangle", "similar figures", "proportional sides", "scale factor"]
+      - id: lines_angles
+        name: Parallel/perpendicular lines, angle relationships, triangle angle sum
+        cb_skill: "Lines, angles, and triangles"
+        keywords: ["parallel lines", "transversal", "vertical angles", "angle sum", "exterior angle"]
+      - id: coordinate_geometry
+        name: Coordinate geometry (distance, midpoint, slope between points)
+        cb_skill: "Lines, angles, and triangles"
+        keywords: ["distance formula", "midpoint", "coordinate plane"]
+      - id: special_right_triangles
+        name: Special right triangles
+        cb_skill: "Right triangles and trigonometry"
+        keywords: ["30-60-90", "45-45-90", "special right triangle", "pythagorean"]
+      - id: right_triangle_trig
+        name: Right triangle trig (SOH-CAH-TOA)
+        cb_skill: "Right triangles and trigonometry"
+        keywords: ["sine", "cosine", "tangent", "SOH-CAH-TOA", "trig ratio"]
+      - id: angle_elevation_depression
+        name: Angle of elevation/depression
+        cb_skill: "Right triangles and trigonometry"
+        keywords: ["angle of elevation", "angle of depression"]
+      - id: circles
+        name: Circles (arcs, angles, sectors, equations)
+        cb_skill: "Circles"
+        keywords: ["circle", "arc", "sector", "radius", "center-radius"]
+      - id: coordinate_geometry
+        name: Coordinate geometry (distance, midpoint, slope between points)
+        keywords: ["distance formula", "midpoint", "coordinate plane"]
+
+formats:
+  - id: straightforward
+    name: Straightforward / direct computation
+  - id: word_problem
+    name: Word problem
+    keywords: ["how many", "how much", "a store", "a company", "John", "Maria", "a train", "per hour", "sells", "costs"]
+  - id: multi_step
+    name: Multi-step
+  - id: graph_based
+    name: Graph-based
+    keywords: ["graph", "graphed", "shown in the figure below", "x-axis", "y-axis"]
+  - id: table_based
+    name: Table/data-based
+    keywords: ["table below", "table shows"]
+  - id: diagram_based
+    name: Diagram-based
+    keywords: ["figure below", "diagram", "shown below"]
+  - id: conceptual
+    name: Conceptual / no computation
+    keywords: ["which of the following best describes", "which statement"]
+
+difficulty_levels: [easy, medium, hard]

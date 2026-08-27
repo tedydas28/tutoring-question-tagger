@@ -1,0 +1,8 @@
+pyyaml
+scikit-learn
+requests
+pytest
+pdfplumber
+pypdf
+pymupdf
+streamlit
