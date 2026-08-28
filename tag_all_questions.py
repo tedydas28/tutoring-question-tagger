@@ -12,10 +12,13 @@ search_cli.py against its output.
 """
 
 import json
+from collections import defaultdict
 from pathlib import Path
 
 from src.classifier import KeywordBaselineClassifier
+from src.config import resolve_pdf_path
 from src.schema import Question, Taxonomy
+from src.visual_features import open_pdf, page_has_plotted_graph
 
 
 def main():
@@ -32,9 +35,35 @@ def main():
     ]
 
     model = KeywordBaselineClassifier(taxonomy)
+    predictions = {q.id: model.predict(q) for q in questions}
+
+    # Graph detection is structural (vector line count on the page), not
+    # keyword-based - see src/visual_features.py for why this matters.
+    # Open each source PDF exactly ONCE and reuse it for every question in
+    # that file, instead of reopening a 600-page PDF per question.
+    by_file = defaultdict(list)
+    for r in raw:
+        by_file[r["source_pdf_filename"]].append(r)
+
+    graph_flags = {}  # question id -> bool
+    for filename, recs in by_file.items():
+        pdf_path = resolve_pdf_path(filename)
+        with open_pdf(pdf_path) as pdf:
+            for r in recs:
+                graph_flags[r["id"]] = page_has_plotted_graph(pdf, r["page_number"])
+
     tagged = []
-    for r, q in zip(raw, questions):
-        pred = model.predict(q)
+    n_graphs_detected = 0
+    for r in raw:
+        pred = predictions[r["id"]]
+        # Structural graph detection REPLACES the keyword guess for
+        # "graph_based" rather than adding to it, since the keyword
+        # version has both false positives and false negatives (see README).
+        formats = [f for f in pred.formats if f != "graph_based"]
+        if graph_flags[r["id"]]:
+            formats.append("graph_based")
+            n_graphs_detected += 1
+
         tagged.append({
             "id": r["id"],
             "source_file": r["source_file"],
@@ -46,7 +75,7 @@ def main():
             "stem_text_partial": r["stem_text_partial"],
             "answer_text_partial": r["answer_text_partial"],
             "auto_tags_skills": pred.skills,
-            "auto_tags_formats": pred.formats,
+            "auto_tags_formats": formats,
         })
 
     out_path = Path("data/tagged_real_questions.json")
@@ -59,6 +88,8 @@ def main():
     print("(Everything has the official CB domain/skill/difficulty regardless - "
           "the fine-grained tag rate is lower because it depends on text that's "
           "often missing the actual math. See README.)")
+    print(f"{n_graphs_detected} / {len(tagged)} questions detected as having a real "
+          f"plotted graph (via vector line count, not keyword matching).")
 
 
 if __name__ == "__main__":

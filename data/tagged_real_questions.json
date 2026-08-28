@@ -29,7 +29,8 @@
       "systems_linear_eq"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -324,9 +325,7 @@
     "stem_text_partial": "The graph of the equation is a line in the xy-plane, where a and k are constants. If the line contains the points and\n, what is the value of k ?",
     "answer_text_partial": "A.\nB.\nC. 2\nD. 3",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "00723d16",
@@ -408,9 +407,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "0adbe034",
@@ -476,7 +473,6 @@
       "linear_eq_one_var"
     ],
     "auto_tags_formats": [
-      "graph_based",
       "table_based"
     ]
   },
@@ -542,9 +538,7 @@
     "auto_tags_skills": [
       "systems_linear_eq"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "187f74bc",
@@ -560,7 +554,8 @@
       "linear_inequalities"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -836,8 +831,8 @@
       "nonlinear_model_interpretation"
     ],
     "auto_tags_formats": [
-      "graph_based",
-      "conceptual"
+      "conceptual",
+      "graph_based"
     ]
   },
   {
@@ -1025,9 +1020,7 @@
     "stem_text_partial": "For each real number , which of the following points lies on the graph of each equation in the xy-plane for the given system?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "51aabd93",
@@ -1236,9 +1229,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "cdec4c87",
@@ -1397,8 +1388,7 @@
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -1679,9 +1669,7 @@
     "auto_tags_skills": [
       "linear_eq_two_var"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "71189542",
@@ -1942,7 +1930,8 @@
       "linear_inequalities"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -2208,9 +2197,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "0d391910",
@@ -2385,9 +2372,7 @@
     "stem_text_partial": "The line graphed in the xy-plane below models the total cost, in dollars, for a cab ride, y, in a certain city during nonpeak hours based on the\nnumber of miles traveled, x.\nAccording to the graph, what is the cost for each additional mile traveled, in dollars, of a cab ride?",
     "answer_text_partial": "A. $2.00\nB. $2.60\nC. $3.00\nD. $5.00",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "fdee0fbf",
@@ -2402,9 +2387,7 @@
     "auto_tags_skills": [
       "linear_eq_two_var"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "541bef2f",
@@ -2437,8 +2420,7 @@
       "ratios_rates"
     ],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -2453,8 +2435,7 @@
     "answer_text_partial": "A. Zero\nB. Exactly one\nC. Exactly two\nD. Infinitely many",
     "auto_tags_skills": [],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -2468,9 +2449,7 @@
     "stem_text_partial": "Which of the following is an equation of the graph shown in the xy-plane above?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "f75bd744",
@@ -2648,9 +2627,7 @@
     "auto_tags_skills": [
       "systems_linear_eq"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "30b1e186",
@@ -2663,9 +2640,7 @@
     "stem_text_partial": "In the xy-plane, which of the following does NOT contain any points that are part of the solution set to ?",
     "answer_text_partial": "A. The x-axis\nB. The region where and\nC. The region where and\nD. The region where and",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "e6cb2402",
@@ -2695,9 +2670,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "af711d1b",
@@ -2894,9 +2867,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "ee1f63c0",
@@ -3048,9 +3019,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "8383771a",
@@ -3119,9 +3088,7 @@
       "linear_eq_one_var",
       "systems_linear_eq"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "c81f1c2f",
@@ -3200,9 +3167,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "3d04de9c",
@@ -3345,9 +3310,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "ed92fb68",
@@ -3480,7 +3443,6 @@
       "area_volume"
     ],
     "auto_tags_formats": [
-      "graph_based",
       "conceptual"
     ]
   },
@@ -3528,9 +3490,7 @@
     "stem_text_partial": "In the xy-plane, the graph of intersects the graph of at the point . What is the value of a ?",
     "answer_text_partial": "A. 3\nB. 6\nC. 9\nD. 12",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "a775af14",
@@ -3545,9 +3505,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "9551cd91",
@@ -3579,9 +3537,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "b8fa27db",
@@ -3598,7 +3554,8 @@
       "linear_functions"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -3663,9 +3620,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "d1f50dbe",
@@ -3697,9 +3652,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "adf60b28",
@@ -3963,7 +3916,8 @@
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -4233,9 +4187,7 @@
     "stem_text_partial": "In the equation above, a and b are constants and . Which of the following could represent the graph of the equation in the xy-plane?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "b31c3117",
@@ -4439,9 +4391,7 @@
     "stem_text_partial": "The graph of in the -plane has an -intercept at and a -intercept at , where and are constants. What is the\nvalue of ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "c5082ce3",
@@ -4733,9 +4683,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "e4a588ca",
@@ -4795,9 +4743,7 @@
     "stem_text_partial": "The graph above shows the distance traveled d, in feet, by a product on a conveyor belt m minutes after the product is placed on the belt. Which\nof the following equations correctly relates d and m ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "771bd0ca",
@@ -4940,9 +4886,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "789975b7",
@@ -4992,7 +4936,8 @@
       "linear_inequalities"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -5075,9 +5020,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "0d1b1e35",
@@ -5461,7 +5404,8 @@
       "linear_inequalities"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -5525,9 +5469,7 @@
     "stem_text_partial": "The function is defined by . What is the -coordinate of the -intercept of the graph of in the -plane?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "98d3393a",
@@ -6094,9 +6036,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "a7e2859a",
@@ -6173,9 +6113,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "f718c9cf",
@@ -6257,9 +6195,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "153ee763",
@@ -6371,9 +6307,7 @@
       "linear_eq_two_var",
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "ee031767",
@@ -6758,7 +6692,8 @@
       "linear_functions"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -6924,9 +6859,7 @@
     "stem_text_partial": "For each real number , which of the following points lies on the graph of each equation in the xy-plane for the given system?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "f8ff3249",
@@ -6976,9 +6909,7 @@
     "auto_tags_skills": [
       "linear_eq_two_var"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "de6fe450",
@@ -7209,7 +7140,8 @@
       "linear_inequalities"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -7311,9 +7243,7 @@
       "linear_functions",
       "function_notation"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "9ff10b3b",
@@ -7343,9 +7273,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "e77a76ce",
@@ -7394,9 +7322,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "1bc11c4e",
@@ -7615,8 +7541,7 @@
       "ratios_rates"
     ],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -7632,9 +7557,7 @@
     "auto_tags_skills": [
       "systems_linear_eq"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "2869fe95",
@@ -7682,9 +7605,7 @@
       "linear_functions",
       "nonlinear_model_interpretation"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "fe287f7e",
@@ -8124,9 +8045,7 @@
     "auto_tags_skills": [
       "nonlinear_model_interpretation"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "cb58833c",
@@ -8139,9 +8058,7 @@
     "stem_text_partial": "The line with the equation is graphed in the xy\u2011plane. What is the x-coordinate of the x\u2011intercept of the line?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "81390d6c",
@@ -8171,9 +8088,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "97eab129",
@@ -8219,7 +8134,8 @@
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -8331,9 +8247,7 @@
     "auto_tags_skills": [
       "systems_linear_eq"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "f02b4509",
@@ -8541,9 +8455,7 @@
     "stem_text_partial": "For each real number , which of the following points lies on the graph of each equation in the xy-plane for the given system?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "1f0966db",
@@ -8852,9 +8764,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "e3bbde69",
@@ -8888,9 +8798,7 @@
       "nonlinear_model_interpretation",
       "ratios_rates"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "8da536c6",
@@ -9003,9 +8911,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "f5ff91b2",
@@ -9153,9 +9059,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "45bba652",
@@ -9300,9 +9204,7 @@
       "linear_eq_two_var",
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "0bd33265",
@@ -9539,7 +9441,8 @@
       "linear_inequalities"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -9703,9 +9606,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "70774aa4",
@@ -9897,9 +9798,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "b64e2c7f",
@@ -9933,7 +9832,6 @@
       "linear_eq_one_var"
     ],
     "auto_tags_formats": [
-      "graph_based",
       "table_based"
     ]
   },
@@ -10015,9 +9913,7 @@
     "stem_text_partial": "Which of the following is the graph of the equation in the xy-plane?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "948087f2",
@@ -10149,8 +10045,7 @@
       "nonlinear_system_solutions"
     ],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -10251,8 +10146,7 @@
     "answer_text_partial": "A. Zero\nB. One\nC. Two\nD. Three",
     "auto_tags_skills": [],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -10381,7 +10275,6 @@
       "linear_functions"
     ],
     "auto_tags_formats": [
-      "graph_based",
       "table_based"
     ]
   },
@@ -10413,9 +10306,7 @@
     "stem_text_partial": "The graphs of the given equations intersect at the point in the xy-plane. What is the value of ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "91e7ea5e",
@@ -10428,9 +10319,7 @@
     "stem_text_partial": "The quadratic function h is defined as shown. In the xy-plane, the graph of intersects the x-axis at the points and , where t\nis a constant. What is the value of t ?",
     "answer_text_partial": "A. 1\nB. 2\nC. 4\nD. 8",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "e9aed539",
@@ -10490,9 +10379,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "4fbffc0a",
@@ -10508,8 +10395,8 @@
       "nonlinear_model_interpretation"
     ],
     "auto_tags_formats": [
-      "graph_based",
-      "conceptual"
+      "conceptual",
+      "graph_based"
     ]
   },
   {
@@ -10523,9 +10410,7 @@
     "stem_text_partial": "An auditorium has seats for people. Tickets to attend a show at the auditorium currently cost . For each increase to the ticket\nprice, fewer tickets will be sold. This situation can be modeled by the equation , where represents the\nincrease in ticket price, in dollars, and represents the revenue, in dollars, from ticket sales. If this equation is graphed in the xy-plane, at what\nvalue of is the maximum of the graph?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "ba0edc30",
@@ -10589,8 +10474,7 @@
       "nonlinear_model_interpretation"
     ],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -10640,9 +10524,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "cb29c54c",
@@ -10659,9 +10541,7 @@
       "nonlinear_model_interpretation",
       "evaluating_statistical_claims"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "4661e2a9",
@@ -10874,9 +10754,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "8e1da169",
@@ -11081,9 +10959,7 @@
     "stem_text_partial": "In the xy-plane, when the graph of the function , where , is shifted up units, the resulting graph is defined by the function . If the\ngraph of crosses through the point , where is a constant, what is the value of ?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "369b7bb7",
@@ -11194,9 +11070,7 @@
     "stem_text_partial": "The function is defined by , where and are constants. In the -plane, the graph of has an -intercept at\nand a -intercept at . What is the value of ?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "3cf2698e",
@@ -11295,8 +11169,7 @@
     "answer_text_partial": "A. The revenue, in dollars, when the unit price of the product is $0\nB. The unit price, in dollars, of the product that will result in maximum revenue\nC. The unit price, in dollars, of the product that will result in a revenue of $0\nD. The maximum revenue, in dollars, that the company can make",
     "auto_tags_skills": [],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -11444,9 +11317,7 @@
     "stem_text_partial": "The graphs of the given equations in the xy-plane intersect at the point . What is a possible value of ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "ff2c1431",
@@ -11510,9 +11381,7 @@
     "auto_tags_skills": [
       "quadratic_graph"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "cc2601cb",
@@ -11700,9 +11569,7 @@
     "stem_text_partial": "x y\n0 0\n1 1\n2 8\n3 27\nThe table shown includes some values of x and their corresponding values of y. Which of the following graphs in the xy-plane could represent the\nrelationship between x and y ?",
     "answer_text_partial": "A.\nB.\nC.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "ea6d05bb",
@@ -11764,9 +11631,7 @@
     "auto_tags_skills": [
       "systems_linear_eq"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "95d1c344",
@@ -11829,9 +11694,7 @@
     "stem_text_partial": "The function is defined by . In the xy-plane, the graph of is the result of translating the graph of\nup units. What is the value of ?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "b0543157",
@@ -11844,9 +11707,7 @@
     "stem_text_partial": "The function is defined by the given equation, where and are constants. In the xy-plane, the graph of passes through the point\n, and . What is the value of ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "1d3fee25",
@@ -12123,9 +11984,7 @@
     "auto_tags_skills": [
       "equation_rearrangement"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "0380bbdc",
@@ -12168,9 +12027,7 @@
     "stem_text_partial": "The function is defined by , where and are positive constants. The graph of in the xy-plane passes through the\npoints and . What is the value of ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "a255ae72",
@@ -12198,9 +12055,7 @@
     "stem_text_partial": "For the given function , the graph of in the xy-plane passes through the point , where is a constant. What is the value of ?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "3de7a7d7",
@@ -12329,9 +12184,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "95ed0b69",
@@ -12378,9 +12231,7 @@
     "stem_text_partial": "The function is defined by , where is a constant. In the xy-plane, the graph of passes through the point\n. What is the value of ?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "341ba5db",
@@ -12456,9 +12307,7 @@
     "stem_text_partial": "In the xy-plane, what is the y-coordinate of the point of intersection of the graphs of and ?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "5da5c665",
@@ -12538,9 +12387,7 @@
     "auto_tags_skills": [
       "quadratic_graph"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "00165291",
@@ -12733,9 +12580,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "e11294f9",
@@ -13140,9 +12985,7 @@
     "stem_text_partial": "The graph of the function f, defined by , is shown in the xy-plane above. If the function g (not shown) is defined by\n, what is one possible value of a such that ?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "6d04c89d",
@@ -13305,8 +13148,8 @@
     ],
     "auto_tags_formats": [
       "word_problem",
-      "graph_based",
-      "conceptual"
+      "conceptual",
+      "graph_based"
     ]
   },
   {
@@ -13499,8 +13342,8 @@
       "nonlinear_model_interpretation"
     ],
     "auto_tags_formats": [
-      "graph_based",
-      "conceptual"
+      "conceptual",
+      "graph_based"
     ]
   },
   {
@@ -13533,9 +13376,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "dc77e0dc",
@@ -13770,8 +13611,7 @@
     "answer_text_partial": "A. Exactly one\nB. Exactly two\nC. Infinitely many\nD. Zero",
     "auto_tags_skills": [],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -13800,9 +13640,7 @@
     "stem_text_partial": "Which of the following is the graph in the xy-plane of the given equation?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "79e6ec70",
@@ -13912,9 +13750,7 @@
       "quadratic_graph",
       "nonlinear_model_interpretation"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "f880f910",
@@ -14045,8 +13881,7 @@
       "nonlinear_model_interpretation"
     ],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -14233,9 +14068,7 @@
     "auto_tags_skills": [
       "quadratic_graph"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "f547a8b1",
@@ -14284,9 +14117,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "2f4eafcc",
@@ -14318,9 +14149,7 @@
     "auto_tags_skills": [
       "systems_linear_eq"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "0121a235",
@@ -14500,9 +14329,7 @@
       "linear_functions",
       "quadratic_graph"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "668f1863",
@@ -14517,9 +14344,7 @@
     "auto_tags_skills": [
       "quadratic_graph"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "70753f99",
@@ -14534,9 +14359,7 @@
     "auto_tags_skills": [
       "quadratic_graph"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "c6e85cd7",
@@ -14633,9 +14456,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "5e63b9cf",
@@ -14990,9 +14811,7 @@
       "linear_eq_two_var",
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "42f19012",
@@ -15266,9 +15085,7 @@
     "auto_tags_skills": [
       "linear_inequalities"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "c77ef2fb",
@@ -15578,9 +15395,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "ebe4bde0",
@@ -15593,9 +15408,7 @@
     "stem_text_partial": "The quadratic function graphed above models a particular measure of plant diversity as a function of the elevation in a region of Switzerland.\nAccording to the model, which of the following is closest to the elevation, in meters, at which plant diversity is greatest?",
     "answer_text_partial": "A. 13,500\nB. 3,000\nC. 1,250\nD. 250",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "ef926848",
@@ -15628,9 +15441,7 @@
     "auto_tags_skills": [
       "systems_linear_eq"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "635f54ee",
@@ -15677,9 +15488,7 @@
     "stem_text_partial": "The function is defined by . In the xy-plane, the graph of is the result of shifting the graph of down units.\nWhich equation defines function ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "99269e03",
@@ -15870,9 +15679,7 @@
     "stem_text_partial": "The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "4209aefe",
@@ -15951,9 +15758,7 @@
     "stem_text_partial": "In the xy-plane, the graph of intersects the graph of at the points and . What is the value of a ?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "5bf0f84a",
@@ -16047,9 +15852,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "20291f47",
@@ -16128,9 +15931,7 @@
     "stem_text_partial": "The function is defined by , where and are positive constants. The graph of in the -plane passes through the\npoints ( , ) and ( , ). What is the value of ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "2683b5db",
@@ -16160,9 +15961,7 @@
     "stem_text_partial": "The function is defined by , where and are constants. In the xy-plane, the graph of passes through the point\n, and . Which of the following must be true?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "1178f2df",
@@ -16178,7 +15977,6 @@
       "linear_functions"
     ],
     "auto_tags_formats": [
-      "graph_based",
       "table_based"
     ]
   },
@@ -16210,9 +16008,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "c8a5c221",
@@ -16310,9 +16106,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "97158b3a",
@@ -16364,7 +16158,6 @@
     ],
     "auto_tags_formats": [
       "word_problem",
-      "graph_based",
       "conceptual"
     ]
   },
@@ -16541,9 +16334,7 @@
     "stem_text_partial": "The -intercept of the graph of in the xy-plane is . What is the value of ?",
     "answer_text_partial": "",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "dba7432e",
@@ -16624,9 +16415,7 @@
     "auto_tags_skills": [
       "quadratic_factoring"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "cbc4c163",
@@ -16733,9 +16522,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "f89e1d6f",
@@ -16797,9 +16584,7 @@
     "auto_tags_skills": [
       "systems_linear_eq"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "c1eead73",
@@ -17519,9 +17304,7 @@
     "auto_tags_skills": [
       "linear_functions"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "fe62f031",
@@ -17534,9 +17317,7 @@
     "stem_text_partial": "The function is defined by . In the xy-plane, the graph of is the result of shifting the graph of up units.\nWhich equation defines the function ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "127b2759",
@@ -17917,9 +17698,7 @@
       "linear_functions",
       "center_spread"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "494d247d",
@@ -17966,9 +17745,7 @@
     "stem_text_partial": "When the equations above are graphed in the xy-plane, what are the coordinates (x, y) of the points of intersection of the two graphs?",
     "answer_text_partial": "A.\nand\nB.\nand\nC.\nand\nD.\nand",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "de362c2f",
@@ -18092,9 +17869,7 @@
     "stem_text_partial": "At what point do the graphs of the equations in the given system intersect?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "faeae876",
@@ -18257,8 +18032,7 @@
       "linear_functions"
     ],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -18336,9 +18110,7 @@
     "stem_text_partial": "In the xy-plane, the graph of the equation intersects the line at exactly one point. What is the value of ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "c602140f",
@@ -18466,9 +18238,7 @@
     "stem_text_partial": "In the given function , is a constant. The graph of function in the xy-plane, where , is translated units down and units to the\nright to produce the graph of . Which equation defines function ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "bf704c34",
@@ -18574,8 +18344,7 @@
     "answer_text_partial": "A. Zero\nB. One\nC. Two\nD. More than two",
     "auto_tags_skills": [],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -19511,7 +19280,8 @@
       "circles"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -19679,9 +19449,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "124bc42b",
@@ -19697,7 +19465,8 @@
       "area_volume"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -19763,7 +19532,8 @@
       "area_volume"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -19969,9 +19739,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "58c26db8",
@@ -20137,9 +19905,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "167aff9e",
@@ -20410,8 +20176,7 @@
       "area_volume"
     ],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -20543,7 +20308,8 @@
       "circles"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -21582,9 +21348,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "4ddfa209",
@@ -21924,9 +21688,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "dc71597b",
@@ -21990,7 +21752,8 @@
       "circles"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -22376,9 +22139,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "010243e6",
@@ -22391,9 +22152,7 @@
     "stem_text_partial": "Triangles and are graphed in the xy-plane. Triangle has vertices , , and at , , and , respectively.\nTriangle has vertices , , and at , , and , respectively, where is a positive constant. If the measure of\nis , what is the measure of ?",
     "answer_text_partial": "A.\nB.\nC.\nD.",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "08b7a3f5",
@@ -22707,9 +22466,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "9fdc4eaa",
@@ -22840,9 +22597,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "d71550d0",
@@ -22957,9 +22712,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "de9148c4",
@@ -23432,7 +23185,8 @@
       "area_volume"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -23615,7 +23369,8 @@
       "area_volume"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -23831,7 +23586,8 @@
       "circles"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -24439,9 +24195,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "3b44439b",
@@ -24554,9 +24308,7 @@
     "auto_tags_skills": [
       "circles"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "85939da5",
@@ -24810,7 +24562,8 @@
       "center_spread"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -24878,7 +24631,8 @@
       "center_spread"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -24962,9 +24716,7 @@
       "ratios_rates",
       "evaluating_statistical_claims"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "3310c2ab",
@@ -25142,7 +24894,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -25274,7 +25027,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -25425,9 +25179,7 @@
     "auto_tags_skills": [
       "percentages"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "be35c117",
@@ -25721,8 +25473,8 @@
       "exponential"
     ],
     "auto_tags_formats": [
-      "graph_based",
-      "conceptual"
+      "conceptual",
+      "graph_based"
     ]
   },
   {
@@ -25841,7 +25593,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -25914,7 +25667,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -26034,7 +25788,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -26137,7 +25892,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -26321,9 +26077,7 @@
     "stem_text_partial": "The line graph shows the number of graduates from the classes of 2001 through 2007 at a certain school who enrolled in college within 24\nmonths of graduation. Of the following, which class had the fewest graduates who enrolled in college within 24 months of graduation?",
     "answer_text_partial": "A. 2002\nB. 2004\nC. 2005\nD. 2007",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "c3d78831",
@@ -26425,7 +26179,8 @@
       "center_spread"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -26441,9 +26196,7 @@
     "auto_tags_skills": [
       "ratios_rates"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "e03f3477",
@@ -26477,7 +26230,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -26511,7 +26265,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -26562,7 +26317,8 @@
       "center_spread"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -26665,7 +26421,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -26874,7 +26631,8 @@
       "center_spread"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -26992,7 +26750,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "word_problem"
+      "word_problem",
+      "graph_based"
     ]
   },
   {
@@ -27443,9 +27202,7 @@
       "linear_inequalities",
       "two_var_data"
     ],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "b3547a10",
@@ -27464,7 +27221,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -27517,7 +27275,8 @@
       "center_spread"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -27814,9 +27573,7 @@
     "stem_text_partial": "According to the line graph above, between which two consecutive years was there the greatest change in the number of 3\u2011D movies released?",
     "answer_text_partial": "A. 2003\u20132004\nB. 2008\u20132009\nC. 2009\u20132010\nD. 2010\u20132011",
     "auto_tags_skills": [],
-    "auto_tags_formats": [
-      "graph_based"
-    ]
+    "auto_tags_formats": []
   },
   {
     "id": "699af7b3",
@@ -28051,7 +27808,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -28223,7 +27981,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "word_problem"
+      "word_problem",
+      "graph_based"
     ]
   },
   {
@@ -28302,7 +28061,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -28508,7 +28268,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -28581,7 +28342,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -28873,8 +28635,7 @@
       "ratios_rates"
     ],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -28909,7 +28670,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -29107,7 +28869,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -29189,7 +28952,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -29461,8 +29225,8 @@
       "linear_inequalities"
     ],
     "auto_tags_formats": [
-      "graph_based",
-      "conceptual"
+      "conceptual",
+      "graph_based"
     ]
   },
   {
@@ -29654,7 +29418,8 @@
       "center_spread"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -29890,7 +29655,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -30027,7 +29793,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -30179,7 +29946,6 @@
     "answer_text_partial": "A. 25\nB. 30\nC. 210\nD. 250",
     "auto_tags_skills": [],
     "auto_tags_formats": [
-      "graph_based",
       "diagram_based"
     ]
   },
@@ -30197,7 +29963,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -30251,7 +30018,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -30283,8 +30051,7 @@
       "center_spread"
     ],
     "auto_tags_formats": [
-      "word_problem",
-      "graph_based"
+      "word_problem"
     ]
   },
   {
@@ -30600,7 +30367,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -30785,7 +30553,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -31141,7 +30910,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -31225,7 +30995,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -31242,7 +31013,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -31331,7 +31103,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -31416,7 +31189,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "straightforward"
+      "straightforward",
+      "graph_based"
     ]
   },
   {
@@ -31601,7 +31375,8 @@
       "two_var_data"
     ],
     "auto_tags_formats": [
-      "word_problem"
+      "word_problem",
+      "graph_based"
     ]
   },
   {
@@ -31619,7 +31394,8 @@
       "center_spread"
     ],
     "auto_tags_formats": [
-      "conceptual"
+      "conceptual",
+      "graph_based"
     ]
   },
   {
