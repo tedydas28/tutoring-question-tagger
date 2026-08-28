@@ -6,3 +6,4 @@ pdfplumber
 pypdf
 pymupdf
 streamlit
+python-dotenv

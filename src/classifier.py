@@ -100,7 +100,7 @@ class LLMClassifier(TaggingModel):
         return {
             "openai": "gpt-4o-mini",
             "gemini": "gemini-2.0-flash",
-            "anthropic": "claude-haiku-4-5",
+            "anthropic": "claude-haiku-4-5-20251001",
         }.get(provider, "gpt-4o-mini")
 
     def _build_prompt(self, question: Question) -> str:
@@ -149,7 +149,7 @@ class LLMClassifier(TaggingModel):
             },
             timeout=30,
         )
-        resp.raise_for_status()
+        self._raise_friendly_error(resp, "OpenAI")
         return resp.json()["choices"][0]["message"]["content"]
 
     def _call_gemini(self, prompt: str) -> str:
@@ -162,7 +162,7 @@ class LLMClassifier(TaggingModel):
             },
             timeout=30,
         )
-        resp.raise_for_status()
+        self._raise_friendly_error(resp, "Gemini")
         return resp.json()["candidates"][0]["content"]["parts"][0]["text"]
 
     def _call_anthropic(self, prompt: str) -> str:
@@ -181,8 +181,28 @@ class LLMClassifier(TaggingModel):
             },
             timeout=30,
         )
-        resp.raise_for_status()
+        self._raise_friendly_error(resp, "Anthropic")
         return resp.json()["content"][0]["text"]
+
+    @staticmethod
+    def _raise_friendly_error(resp, provider_label: str):
+        """Turns a raw HTTP failure into a message that actually says what
+        to do about it, instead of a generic traceback from raise_for_status()."""
+        if resp.status_code == 401:
+            raise RuntimeError(
+                f"{provider_label} rejected the API key (401 Unauthorized). "
+                "Double check the key was copied correctly and hasn't been revoked."
+            )
+        if resp.status_code == 429:
+            raise RuntimeError(
+                f"{provider_label} rate-limited this request (429). "
+                "You're sending requests too fast, or you've hit a spending/usage cap - "
+                "check your account limits at the provider's console."
+            )
+        if resp.status_code >= 400:
+            raise RuntimeError(
+                f"{provider_label} API call failed with status {resp.status_code}: {resp.text[:300]}"
+            )
 
     def _parse_response(self, question_id: str, raw_response: str) -> TagPrediction:
         # Strip markdown code fences if the model wrapped its JSON in them.
